@@ -22,8 +22,29 @@
                 <input type="password" name="mdp" id="mdp"><br>
                 <label for="">Date de naissance</label>
                 <input type="date" name="naissance" id="naissance"><br>
+                <fieldset>
+                    <legend>Niveau en informatique</legend>
+                    <input type="radio" name="niveau" id="Débutant">Débutant <br>
+                    <input type="radio" name="niveau" id="Intermédiare">Intermédiare <br>
+                    <input type="radio" name="niveau" id="Avancé">Avancé
+                </fieldset>
+                <fieldset>
+                    <legend>Atelier douhaité</legend>
+                    <input type="checkbox" name="atelier" id="" value="python">Atelier python <br>
+                    <input type="checkbox" name="atelier" id="" value="jeux-video">Atelier jeux-video
 
-
+                </fieldset>
+                <label for="">Année d'etudes</label>
+                <select name="anee" id="">
+                    <option value="">choisir...</option>
+                    <option value="1">1ere</option>
+                    <option value="2">2eme</option>
+                    <option value="3">3eme</option>
+                </select><br>
+                <label for="">Motivation</label><textarea name="motivation" id="" cols="40" rows="5"></textarea><br>
+                <input type="checkbox" name="reglement" id="reglement">j'accepte le réglement du club <br>
+                <input type="submit" value="envoyer">
+                <input type="reset" value="rénitialiser">
 
             </section>
         </main>
